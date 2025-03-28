@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<NoWarn>$(NoWarn);WPF0001</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\icon.png" />
+    <None Remove="Resources\icon_32.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EleCho.WpfSuite" Version="0.10.3" />
+    <PackageReference Include="OpenCvSharp4" Version="4.10.0.20241108" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.10.0.20241108" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.2" />
+    <PackageReference Include="WPF-UI" Version="3.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\icon.png" />
+    <Resource Include="Resources\icon_32.png" />
+  </ItemGroup>
+
+</Project>

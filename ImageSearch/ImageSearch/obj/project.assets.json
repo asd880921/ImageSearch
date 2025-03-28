@@ -1,0 +1,852 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "EleCho.WpfSuite/0.10.3": {
+        "type": "package",
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.6",
+          "EleCho.WpfSuite.Controls": "0.10.3",
+          "EleCho.WpfSuite.Helpers": "0.9.4",
+          "EleCho.WpfSuite.Input": "0.9.1",
+          "EleCho.WpfSuite.Layouts": "0.9.1",
+          "EleCho.WpfSuite.Markup": "0.9.0",
+          "EleCho.WpfSuite.Media": "0.9.4",
+          "EleCho.WpfSuite.ValueConverters": "0.9.4"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.Common/0.9.6": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/net9.0-windows7.0/zh-Hans/EleCho.WpfSuite.Common.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Controls/0.10.3": {
+        "type": "package",
+        "dependencies": {
+          "EleCho.WpfSuite.Helpers": "0.9.4",
+          "EleCho.WpfSuite.Input": "0.9.1",
+          "EleCho.WpfSuite.Media": "0.9.4",
+          "EleCho.WpfSuite.ValueConverters": "0.9.4"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Controls.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Controls.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.Helpers/0.9.4": {
+        "type": "package",
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.6"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Helpers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Helpers.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.Input/0.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Input.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Input.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.Layouts/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.3"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Layouts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Layouts.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.Markup/0.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Markup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Markup.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.Media/0.9.4": {
+        "type": "package",
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.5"
+        },
+        "compile": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Media.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Media.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "EleCho.WpfSuite.ValueConverters/0.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.ValueConverters.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.ValueConverters.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Microsoft.Win32.SystemEvents/9.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "OpenCvSharp4/4.10.0.20241108": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/OpenCvSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OpenCvSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.10.0.20241108": {
+        "type": "package",
+        "build": {
+          "build/net5.0/OpenCvSharp4.runtime.win.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg4100_64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg4100.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Drawing.Common/9.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "9.0.2"
+        },
+        "compile": {
+          "lib/net9.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net9.0/System.Private.Windows.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net9.0/System.Private.Windows.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "WPF-UI/3.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/Wpf.Ui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Wpf.Ui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "EleCho.WpfSuite/0.10.3": {
+      "sha512": "uzMNQi3fTwO+E5gmGnPWK+eXOG/emTID73YVYbN7/wOO7YkFCBIW2gdNalThtMA8X9gpWBGGtAM8/7iuXog+uw==",
+      "type": "package",
+      "path": "elecho.wpfsuite/0.10.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.0.10.3.nupkg.sha512",
+        "elecho.wpfsuite.nuspec",
+        "lib/net45/EleCho.WpfSuite.dll",
+        "lib/net45/EleCho.WpfSuite.xml",
+        "lib/net46/EleCho.WpfSuite.dll",
+        "lib/net46/EleCho.WpfSuite.xml",
+        "lib/net47/EleCho.WpfSuite.dll",
+        "lib/net47/EleCho.WpfSuite.xml",
+        "lib/net48/EleCho.WpfSuite.dll",
+        "lib/net48/EleCho.WpfSuite.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.xml",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.dll",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Common/0.9.6": {
+      "sha512": "vbDE5ADnyuifoj3nw64mKIjNCY73KSvO4gAuhSoeT22e1pUqPq91hhVMjuvsmmDacSouHoMMu6NkxcY1PUz8tA==",
+      "type": "package",
+      "path": "elecho.wpfsuite.common/0.9.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.common.0.9.6.nupkg.sha512",
+        "elecho.wpfsuite.common.nuspec",
+        "lib/net45/EleCho.WpfSuite.Common.dll",
+        "lib/net45/EleCho.WpfSuite.Common.xml",
+        "lib/net45/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "lib/net46/EleCho.WpfSuite.Common.dll",
+        "lib/net46/EleCho.WpfSuite.Common.xml",
+        "lib/net46/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "lib/net47/EleCho.WpfSuite.Common.dll",
+        "lib/net47/EleCho.WpfSuite.Common.xml",
+        "lib/net47/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "lib/net48/EleCho.WpfSuite.Common.dll",
+        "lib/net48/EleCho.WpfSuite.Common.xml",
+        "lib/net48/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Common.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Common.xml",
+        "lib/net6.0-windows7.0/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Common.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Common.xml",
+        "lib/net8.0-windows7.0/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Common.dll",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Common.xml",
+        "lib/net9.0-windows7.0/zh-Hans/EleCho.WpfSuite.Common.resources.dll",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Controls/0.10.3": {
+      "sha512": "NFsYcXyEtDSskiE4jI6pVKydTxoqgRVLAn/LRkdQqEdHZdlTlGOdhS72ScexFrVSLTopAPel6UtKZpMfH8J5FA==",
+      "type": "package",
+      "path": "elecho.wpfsuite.controls/0.10.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/EleCho.WpfSuite.Controls.StateGenerators.dll",
+        "elecho.wpfsuite.controls.0.10.3.nupkg.sha512",
+        "elecho.wpfsuite.controls.nuspec",
+        "lib/net45/EleCho.WpfSuite.Controls.dll",
+        "lib/net45/EleCho.WpfSuite.Controls.xml",
+        "lib/net46/EleCho.WpfSuite.Controls.dll",
+        "lib/net46/EleCho.WpfSuite.Controls.xml",
+        "lib/net47/EleCho.WpfSuite.Controls.dll",
+        "lib/net47/EleCho.WpfSuite.Controls.xml",
+        "lib/net48/EleCho.WpfSuite.Controls.dll",
+        "lib/net48/EleCho.WpfSuite.Controls.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Controls.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Controls.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Controls.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Controls.xml",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Controls.dll",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Controls.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Helpers/0.9.4": {
+      "sha512": "Xfdp2czLcph/G6OCdxsKrZL19M3caql9hvhQkqdJfPM1WGyKnPIZL113NPIbbrSDEVRv6nHGutktmEbrBD7fIw==",
+      "type": "package",
+      "path": "elecho.wpfsuite.helpers/0.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.helpers.0.9.4.nupkg.sha512",
+        "elecho.wpfsuite.helpers.nuspec",
+        "lib/net45/EleCho.WpfSuite.Helpers.dll",
+        "lib/net45/EleCho.WpfSuite.Helpers.xml",
+        "lib/net46/EleCho.WpfSuite.Helpers.dll",
+        "lib/net46/EleCho.WpfSuite.Helpers.xml",
+        "lib/net47/EleCho.WpfSuite.Helpers.dll",
+        "lib/net47/EleCho.WpfSuite.Helpers.xml",
+        "lib/net48/EleCho.WpfSuite.Helpers.dll",
+        "lib/net48/EleCho.WpfSuite.Helpers.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Helpers.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Helpers.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Helpers.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Helpers.xml",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Helpers.dll",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Helpers.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Input/0.9.1": {
+      "sha512": "19gmqSmOP4060GHM+vpvr0B4T8P+NXM1yWToDjO+feI+ESChYz0am38PeoN3dm7mC5bM2c7Gi0WsI+qmVYw3NA==",
+      "type": "package",
+      "path": "elecho.wpfsuite.input/0.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.input.0.9.1.nupkg.sha512",
+        "elecho.wpfsuite.input.nuspec",
+        "lib/net45/EleCho.WpfSuite.Input.dll",
+        "lib/net45/EleCho.WpfSuite.Input.xml",
+        "lib/net46/EleCho.WpfSuite.Input.dll",
+        "lib/net46/EleCho.WpfSuite.Input.xml",
+        "lib/net47/EleCho.WpfSuite.Input.dll",
+        "lib/net47/EleCho.WpfSuite.Input.xml",
+        "lib/net48/EleCho.WpfSuite.Input.dll",
+        "lib/net48/EleCho.WpfSuite.Input.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Input.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Input.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Input.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Input.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Layouts/0.9.1": {
+      "sha512": "uKnmGfIzYlbBId7YaEUmEJ3xfrorga0gYaKaS8O11JDZ+HHSTx24Q/EH5uzLdYvQnC/ykXY5xBHQA5iPHRuC5Q==",
+      "type": "package",
+      "path": "elecho.wpfsuite.layouts/0.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.layouts.0.9.1.nupkg.sha512",
+        "elecho.wpfsuite.layouts.nuspec",
+        "lib/net45/EleCho.WpfSuite.Layouts.dll",
+        "lib/net45/EleCho.WpfSuite.Layouts.xml",
+        "lib/net46/EleCho.WpfSuite.Layouts.dll",
+        "lib/net46/EleCho.WpfSuite.Layouts.xml",
+        "lib/net47/EleCho.WpfSuite.Layouts.dll",
+        "lib/net47/EleCho.WpfSuite.Layouts.xml",
+        "lib/net48/EleCho.WpfSuite.Layouts.dll",
+        "lib/net48/EleCho.WpfSuite.Layouts.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Layouts.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Layouts.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Layouts.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Layouts.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Markup/0.9.0": {
+      "sha512": "c6eqT6Ps02YFZsnpnQbK3eybCpi2PocQRlcXl3oTcLAY9TBohQhbCmJsR/BEbBizmoV6fp6xLH/idcpHLfKOCw==",
+      "type": "package",
+      "path": "elecho.wpfsuite.markup/0.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.markup.0.9.0.nupkg.sha512",
+        "elecho.wpfsuite.markup.nuspec",
+        "lib/net45/EleCho.WpfSuite.Markup.dll",
+        "lib/net45/EleCho.WpfSuite.Markup.xml",
+        "lib/net46/EleCho.WpfSuite.Markup.dll",
+        "lib/net46/EleCho.WpfSuite.Markup.xml",
+        "lib/net47/EleCho.WpfSuite.Markup.dll",
+        "lib/net47/EleCho.WpfSuite.Markup.xml",
+        "lib/net48/EleCho.WpfSuite.Markup.dll",
+        "lib/net48/EleCho.WpfSuite.Markup.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Markup.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Markup.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Markup.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Markup.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.Media/0.9.4": {
+      "sha512": "WtEJUCV3dpHdMwRbu3Oxmpw7lkKOQk6oVjC/10zp/VNnFBquroUJykdZdqjeRjFvQC6mkd3uRSKtWyAMMaM+Yg==",
+      "type": "package",
+      "path": "elecho.wpfsuite.media/0.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.media.0.9.4.nupkg.sha512",
+        "elecho.wpfsuite.media.nuspec",
+        "lib/net45/EleCho.WpfSuite.Media.dll",
+        "lib/net45/EleCho.WpfSuite.Media.xml",
+        "lib/net46/EleCho.WpfSuite.Media.dll",
+        "lib/net46/EleCho.WpfSuite.Media.xml",
+        "lib/net47/EleCho.WpfSuite.Media.dll",
+        "lib/net47/EleCho.WpfSuite.Media.xml",
+        "lib/net48/EleCho.WpfSuite.Media.dll",
+        "lib/net48/EleCho.WpfSuite.Media.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Media.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.Media.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Media.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.Media.xml",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Media.dll",
+        "lib/net9.0-windows7.0/EleCho.WpfSuite.Media.xml",
+        "logo.png"
+      ]
+    },
+    "EleCho.WpfSuite.ValueConverters/0.9.4": {
+      "sha512": "616fwtSxabPY355LN5BOU+LlTdtU2Fy7M3pmgaNK85SZsUcj5+sOI6aPg3ihjhg69ROltQoqXAn7JKRCEd2wZA==",
+      "type": "package",
+      "path": "elecho.wpfsuite.valueconverters/0.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "elecho.wpfsuite.valueconverters.0.9.4.nupkg.sha512",
+        "elecho.wpfsuite.valueconverters.nuspec",
+        "lib/net45/EleCho.WpfSuite.ValueConverters.dll",
+        "lib/net45/EleCho.WpfSuite.ValueConverters.xml",
+        "lib/net46/EleCho.WpfSuite.ValueConverters.dll",
+        "lib/net46/EleCho.WpfSuite.ValueConverters.xml",
+        "lib/net47/EleCho.WpfSuite.ValueConverters.dll",
+        "lib/net47/EleCho.WpfSuite.ValueConverters.xml",
+        "lib/net48/EleCho.WpfSuite.ValueConverters.dll",
+        "lib/net48/EleCho.WpfSuite.ValueConverters.xml",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.ValueConverters.dll",
+        "lib/net6.0-windows7.0/EleCho.WpfSuite.ValueConverters.xml",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.ValueConverters.dll",
+        "lib/net8.0-windows7.0/EleCho.WpfSuite.ValueConverters.xml",
+        "logo.png"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/9.0.2": {
+      "sha512": "5BkGZ6mHp2dHydR29sb0fDfAuqkv30AHtTih8wMzvPZysOmBFvHfnkR2w3tsc0pSiIg8ZoKyefJXWy9r3pBh0w==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/9.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net9.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net9.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.9.0.2.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "OpenCvSharp4/4.10.0.20241108": {
+      "sha512": "4Lw57NQzOaR0fi9et7GMWB1rpdGzGuNgXHXy45Gltvt8SizQLOGufUonNF9Z+9mo3dcwGC/mL4w5NBgJCqZdHQ==",
+      "type": "package",
+      "path": "opencvsharp4/4.10.0.20241108",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/OpenCvSharp.dll",
+        "lib/net48/OpenCvSharp.xml",
+        "lib/net6.0/OpenCvSharp.dll",
+        "lib/net6.0/OpenCvSharp.xml",
+        "lib/netstandard2.0/OpenCvSharp.dll",
+        "lib/netstandard2.0/OpenCvSharp.xml",
+        "lib/netstandard2.1/OpenCvSharp.dll",
+        "lib/netstandard2.1/OpenCvSharp.xml",
+        "opencvsharp4.4.10.0.20241108.nupkg.sha512",
+        "opencvsharp4.nuspec"
+      ]
+    },
+    "OpenCvSharp4.runtime.win/4.10.0.20241108": {
+      "sha512": "0ae2dwel83tqKlAs45D3KYncoJHRzj1ArEESa6wz7FS3tYu37JDIb5yoMIZPzlkx3Gx2S1BjUrClfXbBHmVh5g==",
+      "type": "package",
+      "path": "opencvsharp4.runtime.win/4.10.0.20241108",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/OpenCvSharp4.runtime.win.props",
+        "build/net5.0/OpenCvSharp4.runtime.win.props",
+        "build/netcoreapp/OpenCvSharp4.runtime.win.props",
+        "build/netstandard/OpenCvSharp4.runtime.win.props",
+        "opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512",
+        "opencvsharp4.runtime.win.nuspec",
+        "runtimes/win-x64/native/OpenCvSharpExtern.dll",
+        "runtimes/win-x64/native/opencv_videoio_ffmpeg4100_64.dll",
+        "runtimes/win-x86/native/OpenCvSharpExtern.dll",
+        "runtimes/win-x86/native/opencv_videoio_ffmpeg4100.dll"
+      ]
+    },
+    "System.Drawing.Common/9.0.2": {
+      "sha512": "JU947wzf8JbBS16Y5EIZzAlyQU+k68D7LRx6y03s2wlhlvLqkt/8uPBrjv2hJnnaJKbdb0GhQ3JZsfYXhrRjyg==",
+      "type": "package",
+      "path": "system.drawing.common/9.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Private.Windows.Core.dll",
+        "lib/net8.0/System.Private.Windows.Core.xml",
+        "lib/net9.0/System.Drawing.Common.dll",
+        "lib/net9.0/System.Drawing.Common.pdb",
+        "lib/net9.0/System.Drawing.Common.xml",
+        "lib/net9.0/System.Private.Windows.Core.dll",
+        "lib/net9.0/System.Private.Windows.Core.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.9.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "WPF-UI/3.0.5": {
+      "sha512": "vha596eFVZ0j/zjpPrYxqaBNZzr17ROOihQ/xqgTVPMx5cmHAVKPulbaUmHKXo0QHGkqvwaPNxYH/HTS/UroTQ==",
+      "type": "package",
+      "path": "wpf-ui/3.0.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net462/Wpf.Ui.dll",
+        "lib/net462/Wpf.Ui.pdb",
+        "lib/net462/Wpf.Ui.xml",
+        "lib/net472/Wpf.Ui.dll",
+        "lib/net472/Wpf.Ui.pdb",
+        "lib/net472/Wpf.Ui.xml",
+        "lib/net481/Wpf.Ui.dll",
+        "lib/net481/Wpf.Ui.pdb",
+        "lib/net481/Wpf.Ui.xml",
+        "lib/net6.0-windows7.0/Wpf.Ui.dll",
+        "lib/net6.0-windows7.0/Wpf.Ui.pdb",
+        "lib/net6.0-windows7.0/Wpf.Ui.xml",
+        "lib/net7.0-windows7.0/Wpf.Ui.dll",
+        "lib/net7.0-windows7.0/Wpf.Ui.pdb",
+        "lib/net7.0-windows7.0/Wpf.Ui.xml",
+        "lib/net8.0-windows7.0/Wpf.Ui.dll",
+        "lib/net8.0-windows7.0/Wpf.Ui.pdb",
+        "lib/net8.0-windows7.0/Wpf.Ui.xml",
+        "tools/VisualStudioToolsManifest.xml",
+        "wpf-ui.3.0.5.nupkg.sha512",
+        "wpf-ui.nuspec",
+        "wpfui.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "EleCho.WpfSuite >= 0.10.3",
+      "OpenCvSharp4 >= 4.10.0.20241108",
+      "OpenCvSharp4.runtime.win >= 4.10.0.20241108",
+      "System.Drawing.Common >= 9.0.2",
+      "WPF-UI >= 3.0.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asd88\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\asd88\\Desktop\\Code\\ImageSearch_WPF\\ImageSearch\\ImageSearch\\ImageSearch.csproj",
+      "projectName": "ImageSearch",
+      "projectPath": "C:\\Users\\asd88\\Desktop\\Code\\ImageSearch_WPF\\ImageSearch\\ImageSearch\\ImageSearch.csproj",
+      "packagesPath": "C:\\Users\\asd88\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asd88\\Desktop\\Code\\ImageSearch_WPF\\ImageSearch\\ImageSearch\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\asd88\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "EleCho.WpfSuite": {
+            "target": "Package",
+            "version": "[0.10.3, )"
+          },
+          "OpenCvSharp4": {
+            "target": "Package",
+            "version": "[4.10.0.20241108, )"
+          },
+          "OpenCvSharp4.runtime.win": {
+            "target": "Package",
+            "version": "[4.10.0.20241108, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[9.0.2, )"
+          },
+          "WPF-UI": {
+            "target": "Package",
+            "version": "[3.0.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

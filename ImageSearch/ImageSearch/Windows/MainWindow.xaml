@@ -1,0 +1,101 @@
+﻿<window:CustomWindow x:Class="ImageSearch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageSearch"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        xmlns:window="clr-namespace:ImageSearch.Windows"
+        xmlns:page="clr-namespace:ImageSearch.Pages"
+        xmlns:control="clr-namespace:ImageSearch.Controls"
+        xmlns:ws="https://schemas.elecho.dev/wpfsuite"
+        mc:Ignorable="d"
+        MinHeight="600" MinWidth="800" 
+        Height="600" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Title="卡面搜尋系統" Icon="/Resources/icon_32.png">
+
+    <Grid x:Name="MainGrid">
+        <control:CustomTitleBar x:Name="Titlebar"
+            Margin="45,0,0,0" 
+            Title="卡面搜尋系統" 
+            TitleSize="13"           
+            TitleWeight="Bold"
+            Icon="/Resources/Icon_32.png" 
+            IconSize="22"/>
+
+        <Button x:Name="MenuButton"
+            Grid.Column="0"
+            Margin="5"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            WindowChrome.IsHitTestVisibleInChrome="True"
+            Click="MenuButton_Click"
+            Background="Transparent"
+            BorderBrush="Transparent">
+            <TextBlock Text="☰" FontSize="16" FontWeight="Bold" VerticalAlignment="Center"/>
+        </Button>
+
+        <Grid x:Name="ContentGrid" Margin="0,42,0,0">
+            <DockPanel>
+                <Border x:Name="Menu"
+                    Background="{DynamicResource CardBackgroundFillColorDefaultBrush}"
+                    VerticalAlignment="Stretch"
+                    HorizontalAlignment="Left"
+                    Margin="5,0,0,5"
+                    CornerRadius="5">
+
+                    <DockPanel x:Name="MenuPanel"
+                        HorizontalAlignment="Left"
+                        Margin="10">
+
+                        <!-- 設定按鈕 -->
+                        <ui:Button x:Name="SettingButton" 
+                            DockPanel.Dock="Bottom"
+                            HorizontalAlignment="Stretch"
+                            Click="SettingButton_Click">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <ui:SymbolIcon VerticalAlignment="Center" Symbol="Settings20"/>
+                                <TextBlock Text="設定" Margin="5,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </ui:Button>
+
+                        <!-- 選單欄 -->
+                        <TreeView x:Name="MenuList"
+                            VerticalAlignment="Stretch"
+                            HorizontalAlignment="Left" 
+                            Width="200"
+                            SelectedItemChanged="MenuList_SelectedItemChanged">
+
+                            <!-- 搜尋 -->
+                            <TreeViewItem x:Name="Search">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <ui:SymbolIcon VerticalAlignment="Center" Symbol="Search16"/>
+                                        <TextBlock Text="搜尋" Margin="5"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+
+                        </TreeView>
+                    </DockPanel>
+
+                </Border>
+
+                <Frame x:Name="PageContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,0,5,0"/>
+
+            </DockPanel>
+        </Grid>
+
+        <Grid x:Name="ProcessBarView" Background="#90000000" Visibility="Collapsed">
+            <!-- ViewBox 用於自動縮放內容 -->
+            <Viewbox>
+                <Frame Width="1920" Height="1080">
+                    <Frame.Content>
+                        <page:ProcessBarPage/>
+                    </Frame.Content>
+                </Frame>
+            </Viewbox>
+        </Grid>
+    </Grid>
+</window:CustomWindow>

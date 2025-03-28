@@ -1,0 +1,49 @@
+﻿<window:CustomDialogWindow x:Class="ImageSearch.Windows.UpdateDBDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageSearch.Windows"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        xmlns:window="clr-namespace:ImageSearch.Windows"
+        xmlns:control="clr-namespace:ImageSearch.Controls"
+        mc:Ignorable="d"
+        Title="UpdateDBDialog"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize"
+        DisableCloseButton="True"
+        Background="{DynamicResource SolidBackgroundFillColorTertiaryBrush}">
+
+    <Grid x:Name="MainGrid">
+        <control:CustomTitleBar x:Name="Titlebar" Title="更新資料庫" TitleSize="13" TitleWeight="Bold"/>
+        <DockPanel Margin="20,52,20,73">
+            <StackPanel x:Name="CheckBoxPanel" DockPanel.Dock="Top"/>
+            <TextBox x:Name="ContentInput" Width="500" Height="300" DockPanel.Dock="Top" Margin="0,8,0,0" VerticalAlignment="Stretch" AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True"/>
+        </DockPanel>
+        <Border VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Background="{DynamicResource SmokeFillColorDefaultBrush}">
+            <Grid Margin="13">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition x:Name="OkColumn" Width="*"/>
+                    <ColumnDefinition x:Name="CancelColumn" Width="*" />
+
+                </Grid.ColumnDefinitions>
+
+                <ui:Button x:Name="UpdateButton"
+                HorizontalAlignment="Stretch" 
+                Content="更新"
+                Click="UpdateButton_Click"
+                Margin="3,0,3,0"
+                Grid.Column="0"/>
+
+                <ui:Button x:Name="CloseButton"
+                HorizontalAlignment="Stretch" 
+                Content="關閉"
+                Click="CloseButton_Click"
+                Margin="3,0,3,0"
+                Grid.Column="1"/>
+
+            </Grid>
+        </Border>
+    </Grid>
+</window:CustomDialogWindow>

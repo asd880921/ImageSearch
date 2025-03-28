@@ -1,0 +1,266 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "EleCho.WpfSuite/0.10.3": {
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.6",
+          "EleCho.WpfSuite.Controls": "0.10.3",
+          "EleCho.WpfSuite.Helpers": "0.9.4",
+          "EleCho.WpfSuite.Input": "0.9.1",
+          "EleCho.WpfSuite.Layouts": "0.9.1",
+          "EleCho.WpfSuite.Markup": "0.9.0",
+          "EleCho.WpfSuite.Media": "0.9.4",
+          "EleCho.WpfSuite.ValueConverters": "0.9.4"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.dll": {
+            "assemblyVersion": "0.10.3.0",
+            "fileVersion": "0.10.3.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Common/0.9.6": {
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Common.dll": {
+            "assemblyVersion": "0.9.6.0",
+            "fileVersion": "0.9.6.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0-windows7.0/zh-Hans/EleCho.WpfSuite.Common.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Controls/0.10.3": {
+        "dependencies": {
+          "EleCho.WpfSuite.Helpers": "0.9.4",
+          "EleCho.WpfSuite.Input": "0.9.1",
+          "EleCho.WpfSuite.Media": "0.9.4",
+          "EleCho.WpfSuite.ValueConverters": "0.9.4"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Controls.dll": {
+            "assemblyVersion": "0.10.3.0",
+            "fileVersion": "0.10.3.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Helpers/0.9.4": {
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.6"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Helpers.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Input/0.9.1": {
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Input.dll": {
+            "assemblyVersion": "0.9.1.0",
+            "fileVersion": "0.9.1.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Layouts/0.9.1": {
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.6"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Layouts.dll": {
+            "assemblyVersion": "0.9.1.0",
+            "fileVersion": "0.9.1.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Markup/0.9.0": {
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.Markup.dll": {
+            "assemblyVersion": "0.9.0.0",
+            "fileVersion": "0.9.0.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.Media/0.9.4": {
+        "dependencies": {
+          "EleCho.WpfSuite.Common": "0.9.6"
+        },
+        "runtime": {
+          "lib/net9.0-windows7.0/EleCho.WpfSuite.Media.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          }
+        }
+      },
+      "EleCho.WpfSuite.ValueConverters/0.9.4": {
+        "runtime": {
+          "lib/net8.0-windows7.0/EleCho.WpfSuite.ValueConverters.dll": {
+            "assemblyVersion": "0.9.4.0",
+            "fileVersion": "0.9.4.0"
+          }
+        }
+      },
+      "OpenCvSharp4/4.10.0.20241108": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/OpenCvSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenCvSharp4.runtime.win/4.10.0.20241108": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg4100_64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2024.5.0.0"
+          },
+          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg4100.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2024.5.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "WPF-UI/3.0.5": {
+        "runtime": {
+          "lib/net8.0-windows7.0/Wpf.Ui.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EleCho.WpfSuite/0.10.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uzMNQi3fTwO+E5gmGnPWK+eXOG/emTID73YVYbN7/wOO7YkFCBIW2gdNalThtMA8X9gpWBGGtAM8/7iuXog+uw==",
+      "path": "elecho.wpfsuite/0.10.3",
+      "hashPath": "elecho.wpfsuite.0.10.3.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Common/0.9.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vbDE5ADnyuifoj3nw64mKIjNCY73KSvO4gAuhSoeT22e1pUqPq91hhVMjuvsmmDacSouHoMMu6NkxcY1PUz8tA==",
+      "path": "elecho.wpfsuite.common/0.9.6",
+      "hashPath": "elecho.wpfsuite.common.0.9.6.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Controls/0.10.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NFsYcXyEtDSskiE4jI6pVKydTxoqgRVLAn/LRkdQqEdHZdlTlGOdhS72ScexFrVSLTopAPel6UtKZpMfH8J5FA==",
+      "path": "elecho.wpfsuite.controls/0.10.3",
+      "hashPath": "elecho.wpfsuite.controls.0.10.3.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Helpers/0.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xfdp2czLcph/G6OCdxsKrZL19M3caql9hvhQkqdJfPM1WGyKnPIZL113NPIbbrSDEVRv6nHGutktmEbrBD7fIw==",
+      "path": "elecho.wpfsuite.helpers/0.9.4",
+      "hashPath": "elecho.wpfsuite.helpers.0.9.4.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Input/0.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-19gmqSmOP4060GHM+vpvr0B4T8P+NXM1yWToDjO+feI+ESChYz0am38PeoN3dm7mC5bM2c7Gi0WsI+qmVYw3NA==",
+      "path": "elecho.wpfsuite.input/0.9.1",
+      "hashPath": "elecho.wpfsuite.input.0.9.1.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Layouts/0.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uKnmGfIzYlbBId7YaEUmEJ3xfrorga0gYaKaS8O11JDZ+HHSTx24Q/EH5uzLdYvQnC/ykXY5xBHQA5iPHRuC5Q==",
+      "path": "elecho.wpfsuite.layouts/0.9.1",
+      "hashPath": "elecho.wpfsuite.layouts.0.9.1.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Markup/0.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c6eqT6Ps02YFZsnpnQbK3eybCpi2PocQRlcXl3oTcLAY9TBohQhbCmJsR/BEbBizmoV6fp6xLH/idcpHLfKOCw==",
+      "path": "elecho.wpfsuite.markup/0.9.0",
+      "hashPath": "elecho.wpfsuite.markup.0.9.0.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.Media/0.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WtEJUCV3dpHdMwRbu3Oxmpw7lkKOQk6oVjC/10zp/VNnFBquroUJykdZdqjeRjFvQC6mkd3uRSKtWyAMMaM+Yg==",
+      "path": "elecho.wpfsuite.media/0.9.4",
+      "hashPath": "elecho.wpfsuite.media.0.9.4.nupkg.sha512"
+    },
+    "EleCho.WpfSuite.ValueConverters/0.9.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-616fwtSxabPY355LN5BOU+LlTdtU2Fy7M3pmgaNK85SZsUcj5+sOI6aPg3ihjhg69ROltQoqXAn7JKRCEd2wZA==",
+      "path": "elecho.wpfsuite.valueconverters/0.9.4",
+      "hashPath": "elecho.wpfsuite.valueconverters.0.9.4.nupkg.sha512"
+    },
+    "OpenCvSharp4/4.10.0.20241108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4Lw57NQzOaR0fi9et7GMWB1rpdGzGuNgXHXy45Gltvt8SizQLOGufUonNF9Z+9mo3dcwGC/mL4w5NBgJCqZdHQ==",
+      "path": "opencvsharp4/4.10.0.20241108",
+      "hashPath": "opencvsharp4.4.10.0.20241108.nupkg.sha512"
+    },
+    "OpenCvSharp4.runtime.win/4.10.0.20241108": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ae2dwel83tqKlAs45D3KYncoJHRzj1ArEESa6wz7FS3tYu37JDIb5yoMIZPzlkx3Gx2S1BjUrClfXbBHmVh5g==",
+      "path": "opencvsharp4.runtime.win/4.10.0.20241108",
+      "hashPath": "opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "WPF-UI/3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vha596eFVZ0j/zjpPrYxqaBNZzr17ROOihQ/xqgTVPMx5cmHAVKPulbaUmHKXo0QHGkqvwaPNxYH/HTS/UroTQ==",
+      "path": "wpf-ui/3.0.5",
+      "hashPath": "wpf-ui.3.0.5.nupkg.sha512"
+    }
+  }
+}

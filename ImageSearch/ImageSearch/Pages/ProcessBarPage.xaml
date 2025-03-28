@@ -1,0 +1,19 @@
+﻿<Page x:Class="ImageSearch.Pages.ProcessBarPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ImageSearch.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProcessBarPage">
+
+    <Grid>
+        <Border CornerRadius="10" Width="800" Height="450"  Background="{DynamicResource SolidBackgroundFillColorTertiaryBrush}">
+            <Grid>
+                <TextBlock Text="Loading..." Margin="0,0,0,60" Foreground="{DynamicResource TextFillColorPrimaryBrush}" FontSize="40" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <ProgressBar IsIndeterminate="True" Margin="100,120,100,0" Height="8" Foreground="#2697ed"  Background="{DynamicResource TextFillColorPrimaryBrush}"  VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

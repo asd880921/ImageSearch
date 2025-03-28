@@ -1,0 +1,61 @@
+﻿<window:CustomDialogWindow x:Class="ImageSearch.Windows.MessageDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageSearch.Windows"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        xmlns:window="clr-namespace:ImageSearch.Windows"
+        xmlns:control="clr-namespace:ImageSearch.Controls"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize"
+        DisableCloseButton="True"
+        Background="{DynamicResource SolidBackgroundFillColorTertiaryBrush}">
+
+    <Grid x:Name="MainGrid">
+        <control:CustomTitleBar x:Name="Titlebar" Title="Title" TitleSize="13" TitleWeight="Bold"/>
+
+        <StackPanel HorizontalAlignment="Center" Margin="20,52,20,73">
+            <TextBlock x:Name="Message"
+            Text="測試訊息"
+            FontSize="14"
+            TextWrapping="Wrap"
+            HorizontalAlignment="Stretch"
+            MaxWidth="600"/>
+        </StackPanel>
+
+        <Border VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Background="{DynamicResource SmokeFillColorDefaultBrush}">
+            <Grid Margin="13">
+                <!-- 定義三個欄位，均等分配寬度 -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition x:Name="OkColumn" Width="*"/>
+                    <ColumnDefinition x:Name="CancelColumn" Width="*" />
+                    <ColumnDefinition x:Name="OtherColumn" Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <ui:Button x:Name="OkButton"
+                HorizontalAlignment="Stretch" 
+                Content="確定"
+                Click="CloseButton_Click"
+                Margin="3,0,3,0"
+                Grid.Column="0"/>
+
+                <ui:Button x:Name="CancelButton"
+                HorizontalAlignment="Stretch" 
+                Content="取消"
+                Click="CloseButton_Click"
+                Margin="3,0,3,0"
+                Grid.Column="1"/>
+
+                <ui:Button x:Name="OtherButton"
+                HorizontalAlignment="Stretch" 
+                Content="其他事件"
+                Click="CloseButton_Click"
+                Margin="3,0,3,0"
+                Grid.Column="2"/>
+            </Grid>
+        </Border>
+    </Grid>
+    </window:CustomDialogWindow>
